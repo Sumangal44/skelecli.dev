@@ -14,21 +14,21 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Sumangal.dev - Fontend Developer Portfolio',
-  description: 'Sumangal Karan - Portfolio',
-  keywords: 'Fontend Developer, Portfolio, Sumangal Karan, Web Developer, Designer',
+  title: 'SkeleCLI.dev - CLI tool for generating templates.',
+  description: 'SkeleCLI is a CLI tool for generating templates for your projects. It is a simple and easy to use tool that helps you to generate templates for your projects.',
+  keywords: 'SkeleCLI, SkeleCLI.dev,Sumangal Karan,Cli,CLI tool,CLI tool for generating templates,CLI tool for generating templates for your projects,CLI tool for generating templates for your projects easily,CLI tool for generating templates for your projects easily and quickly',
   authors: [{ name: 'Sumangal Karan', url: 'https://devsumangal.netlify.app/' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.yourwebsite.com',
-    siteName: 'Designer Name Portfolio',
+    url: 'https://skelecli.dev/',
+    siteName: 'SkeleCLI.dev',
     images: [
       {
-        url: 'https://www.yourwebsite.com/og-image.jpg',
+        url: '',
         width: 1200,
         height: 630,
-        alt: 'Sumangal.dev - Fontend Developer Portfolio',
+        alt: 'SkeleCLI.dev - CLI tool for generating templates.',
       },
     ],
   },
