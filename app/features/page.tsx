@@ -1,6 +1,7 @@
 
 import { Zap, BookOpen, GitFork } from "lucide-react"
-
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 export default function Features() {
   const features = [
     {
@@ -21,7 +22,10 @@ export default function Features() {
   ]
 
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <>
+    <Header />
+
+    <section className="w-full h-screen py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">Key Features</h2>
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
@@ -35,6 +39,8 @@ export default function Features() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   )
 }
 

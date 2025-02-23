@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Terminal } from "lucide-react"
+import { Terminal,Github} from "lucide-react"
 import { useTheme } from "next-themes";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -19,11 +19,11 @@ export default function Header() {
           <span className="font-bold text-lg md:text-xl">SkeleCLI</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          <Link href="/portfolio">Home</Link>
-          <Link href="/services">Feaatures</Link>
-          <Link href="/about">Docs</Link>
-          <Link href="/contact">Changelog</Link>
-          <Link href="/skills">Contribute</Link>
+          <Link href="/">Home</Link>
+          <Link href="/features">Feaatures</Link>
+          <Link href="/docs">Docs</Link>
+          <Link href="/changelog">Changelog</Link>
+          <Link href="https://github.com/Sumangal44/SkeleCLI"><Github /></Link>
         </nav>
         <div className="flex items-center space-x-2">
           <Button
@@ -53,20 +53,20 @@ export default function Header() {
       </div>
       {isMenuOpen && (
         <nav className="md:hidden border-t">
-          <Link href="/portfolio" className="block px-4 py-2 hover:bg-accent">
+          <Link href="/" className="block px-4 py-2 hover:bg-accent">
             Home
           </Link>
-          <Link href="/services" className="block px-4 py-2 hover:bg-accent">
+          <Link href="/features" className="block px-4 py-2 hover:bg-accent">
             Features
           </Link>
-          <Link href="/about" className="block px-4 py-2 hover:bg-accent">
+          <Link href="/docs" className="block px-4 py-2 hover:bg-accent">
             Docs
           </Link>
-          <Link href="/contact" className="block px-4 py-2 hover:bg-accent">
+          <Link href="/changelog" className="block px-4 py-2 hover:bg-accent">
             Changelog
           </Link>
-          <Link href="/skills" className="block px-4 py-2 hover:bg-accent">
-            Contribute
+          <Link href="/contribute" className="block px-4 py-2 hover:bg-accent">
+           
           </Link>
         </nav>
       )}

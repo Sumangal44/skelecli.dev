@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Terminal, Copy, Check } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Hero() {
@@ -24,10 +25,10 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Button size="lg" asChild>
-            <a href="#portfolio">Get Started</a>
+            <Link href="/get-started">Get Started</Link>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="/skills">Contribute</a>
+            <Link href="/docs">Read Docs</Link>
           </Button>
         </div>
         <div className="w-full max-w-sm space-y-2">

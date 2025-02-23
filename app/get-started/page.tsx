@@ -1,9 +1,17 @@
 import { Button } from "@/components/ui/button"
 import { Terminal } from "lucide-react"
+import Header from "@/components/Header"
+
+export const metadata = {
+  title: "Get Started",
+  description: "Get started with SkeleCLI by installing it globally and generating a new project.",
+}
 
 export default function GetStarted() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <>
+    <Header />
+    <section className="w-full h-screen py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container px-4 md:px-6">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none mb-8">
           Get Started with SkeleCLI
@@ -41,6 +49,7 @@ export default function GetStarted() {
         </div>
       </div>
     </section>
+    </>
   )
 }
 

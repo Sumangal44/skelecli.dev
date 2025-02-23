@@ -1,7 +1,8 @@
 import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 type ChangelogEntry = {
   version: string
   date: string
@@ -43,6 +44,8 @@ const changelog: ChangelogEntry[] = [
 
 export default function Changelog() {
   return (
+    <>
+    <Header />
     <div className="container mx-auto px-4 py-12 md:py-24 lg:py-32">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Changelog</h1>
@@ -77,6 +80,8 @@ export default function Changelog() {
         </ScrollArea>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

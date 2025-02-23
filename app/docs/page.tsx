@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export default function Docs() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <>
+    <Header/>
+    <section className="w-full h-screen py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">Documentation</h2>
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
@@ -24,6 +28,8 @@ export default function Docs() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   )
 }
 
