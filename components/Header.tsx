@@ -65,9 +65,7 @@ export default function Header() {
           <Link href="/changelog" className="block px-4 py-2 hover:bg-accent">
             Changelog
           </Link>
-          <Link href="/contribute" className="block px-4 py-2 hover:bg-accent">
-           
-          </Link>
+          <Link href="https://github.com/Sumangal44/SkeleCLI" className="block px-4 py-2 hover:bg-accent"><Github /></Link>
         </nav>
       )}
     </header>

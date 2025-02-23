@@ -19,6 +19,11 @@ export default function Features() {
       title: "Customizable",
       description: "Easily extend and customize templates to fit your specific project requirements.",
     },
+    {
+      icon: Zap,
+      title: "Automatic Updates",
+      description: "Choose from a wide range of templates for various frameworks and project types.",
+    }
   ]
 
   return (

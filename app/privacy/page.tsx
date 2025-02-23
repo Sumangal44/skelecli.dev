@@ -8,7 +8,7 @@ export default function PrivacyPage() {
       <main className="flex-grow container mx-auto px-4 py-8 md:py-12 lg:py-16 text-left sm:text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Privacy Policy</h1>
         <div className="prose dark:prose-invert max-w-none mx-auto">
-          <p className="mb-4">Last updated: [Current Date]</p>
+          <p className="mb-4">Last updated: [24.02.2025]</p>
           <p className="mb-4">DesignerName (&quot;us&quot;&ldquo; &quot;we&quot;&ldquo; or &quot;our&quot;) operates [Your Website URL] (the &quot;Site&quot;). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
           
           <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-4">Information Collection And Use</h2>
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
           <p className="mb-4">The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
           
           <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-4">Changes To This Privacy Policy</h2>
-          <p className="mb-4">This Privacy Policy is effective as of [Current Date] and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
+          <p className="mb-4">This Privacy Policy is effective as of [24.02.2025] and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page. We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.</p>
           
           <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-4">Contact Us</h2>
           <p className="mb-4">If you have any questions about this Privacy Policy, please contact us.</p>

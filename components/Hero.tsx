@@ -8,13 +8,13 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   const copyCommand = () => {
-    navigator.clipboard.writeText("npm install -g skelecli");
+    navigator.clipboard.writeText("npx skelecli");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
 
   return (
-    <section className="lg:h-[44rem] md:h-[40rem] h-[38rem] container flex flex-col lg:flex-row items-center justify-between gap-8 py-12 md:py-24">
+    <section className="h-screen container flex flex-col lg:flex-row items-center justify-between gap-8 py-12 md:py-24">
       <div className="flex flex-col items-center lg:items-center text-center lg:text-left space-y-4 flex-1">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
           SkeleCLI: Your Project Template Generator
@@ -36,8 +36,8 @@ export default function Hero() {
             <div className="flex items-center justify-between rounded-md bg-muted p-4">
               <div className="flex items-center">
                 <Terminal className="mr-2 h-4 w-4" />
-                <code className="text-sm font-mono">
-                  npm install -g skelecli
+                <code className="text-sm font-mono  justify-center ">
+                  npx skelecli
                 </code>
               </div>
               <Button

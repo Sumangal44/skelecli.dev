@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export default function Templates() {
   const templates = [
@@ -43,6 +45,8 @@ export default function Templates() {
   ]
 
   return (
+    <>
+    <Header/>
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-center mb-8">
@@ -75,6 +79,8 @@ export default function Templates() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   )
 }
 

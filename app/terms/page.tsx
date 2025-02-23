@@ -8,7 +8,7 @@ export default function TermsPage() {
       <main className="flex-grow container mx-auto px-4 py-8 md:py-12 lg:py-16 text-left sm:text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Terms of Service</h1>
         <div className="prose dark:prose-invert max-w-none mx-auto">
-          <p className="mb-4">Last updated: [Current Date]</p>
+          <p className="mb-4">Last updated: [24.02.2025]</p>
           <h2 className="text-2xl md:text-3xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="mb-4">By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement.</p>
           
