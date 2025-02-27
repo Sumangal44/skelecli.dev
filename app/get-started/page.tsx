@@ -19,6 +19,17 @@ export default function GetStarted() {
             Get Started with SkeleCLI
           </h1>
           <div className="space-y-8">
+          <div>
+              <h2 className="text-2xl font-semibold mb-4">
+                Usage
+              </h2>
+              <div className="bg-muted p-4 rounded-lg flex items-center space-x-4 justify-center ">
+                <Terminal className="h-6 w-6" />
+                <code className="text-sm font-mono ">
+                  npx skelecli
+                </code>
+              </div>
+            </div>
             <div>
               <h2 className="text-2xl font-semibold mb-4">
                 Global Installation
@@ -34,6 +45,7 @@ export default function GetStarted() {
                 </code>
               </div>
             </div>
+            
             <div>
               <h2 className="text-2xl font-semibold mb-4">Usage</h2>
               <p className="text-lg mb-4">
@@ -43,7 +55,7 @@ export default function GetStarted() {
               <div className="bg-muted p-4 rounded-lg flex items-center space-x-4 justify-center">
                 <Terminal className="h-6 w-6" />
                 <code className="text-sm font-mono">
-                  skelecli create my-new-project
+                  skelecli 
                 </code>
               </div>
             </div>

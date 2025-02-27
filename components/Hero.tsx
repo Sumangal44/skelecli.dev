@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Terminal, Copy, Check } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { Badge } from "./ui/badge";
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
@@ -16,6 +17,12 @@ export default function Hero() {
   return (
     <section className="h-screen container flex flex-col lg:flex-row items-center justify-between gap-8 py-12 md:py-24">
       <div className="flex flex-col items-center lg:items-center text-center lg:text-left space-y-4 flex-1">
+        <Badge
+          className="px-3 py-1 text-sm border border-green-500 text-green-500"
+          variant="outline"
+        >
+          Latest v2.3.2
+        </Badge>
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
           SkeleCLI: Your Project Template Generator
         </h1>
