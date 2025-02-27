@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Terminal, Copy, Check } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-
 export default function Hero() {
   const [copied, setCopied] = useState(false);
 
@@ -21,7 +20,8 @@ export default function Hero() {
           SkeleCLI: Your Project Template Generator
         </h1>
         <p className="max-w-xl text-lg sm:text-xl text-muted-foreground">
-          Instantly scaffold your projects with customizable templates. No global installation required.
+          Instantly scaffold your projects with customizable templates. No
+          global installation required.
         </p>
 
         {/* Buttons */}
@@ -47,7 +47,11 @@ export default function Hero() {
               onClick={copyCommand}
               className="h-8 w-8 transition-all duration-200"
             >
-              {copied ? <Check className="h-5 w-5 text-green-500" /> : <Copy className="h-5 w-5" />}
+              {copied ? (
+                <Check className="h-5 w-5 text-green-500" />
+              ) : (
+                <Copy className="h-5 w-5" />
+              )}
               <span className="sr-only">Copy command</span>
             </Button>
           </div>
